@@ -1,0 +1,12 @@
+
+public class Homework{
+    /*method to return the factorial of integer n*/
+   // @param integer n we need the factorial for//
+    public static int fact(int n){
+        if(n==0){                          //base case
+            return 1;
+        }
+        else{
+            return n*fact(n-1);             //recursive case
+        }
+    }
